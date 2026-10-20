@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CoinClock Privacy Policy</title>
+<meta name="description" content="Privacy policy for the CoinClock Android app by rayvader.">
+<style>
+  :root { --ink: #1c1b1f; --soft: #49454f; --bg: #ffffff; --card: #f3f4fb; --brand: #3f51b5; --line: #dfe1ee; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #e6e1e5; --soft: #cac4d0; --bg: #141218; --card: #1f1d26; --brand: #b4bdff; --line: #34313d; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 20px 56px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  header svg { width: 56px; height: 56px; flex: none; border-radius: 14px; }
+  h1 { font-size: 28px; line-height: 1.2; margin: 0; }
+  .date { color: var(--soft); margin: 4px 0 24px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; color: var(--brand); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 4px 20px; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--brand); }
+  code { font-size: 15px; }
+  footer { margin-top: 40px; color: var(--soft); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg viewBox="16 16 76 76" aria-hidden="true">
+      <rect x="16" y="16" width="76" height="76" fill="#3f51b5"/>
+      <circle cx="54" cy="54" r="25" fill="#ffc83d"/>
+      <circle cx="54" cy="54" r="19" fill="#fff4d6"/>
+      <path d="M54,42v12l8,6" fill="none" stroke="#3f51b5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <h1>CoinClock Privacy Policy</h1>
+  </header>
+  <p class="date">Effective 20 October 2026</p>
+
+  <p>CoinClock is an Android app that converts money between currencies and shows the time in cities. It is made by <strong>rayvader</strong>, an independent developer. This page explains what data the app uses and where it goes.</p>
+
+  <div class="card">
+    <h2>In short</h2>
+    <ul>
+      <li>There is no sign-in, no ads, no analytics and no tracking.</li>
+      <li>Your saved currencies and cities stay on your phone.</li>
+      <li>The developer does not receive any data from the app.</li>
+      <li>The app uses two online services: one for exchange rates and one for city search.</li>
+    </ul>
+  </div>
+
+  <h2>Data kept on your phone</h2>
+  <p>CoinClock stores your saved currencies, your saved cities, your main currency, the last downloaded exchange rates and your app settings. This data is kept in the app's private storage on your phone. It is not sent to the developer.</p>
+
+  <h2>Data that leaves your phone</h2>
+  <ul>
+    <li><strong>Exchange rates.</strong> About once a day, CoinClock downloads the latest rates from ExchangeRate-API (<code>open.er-api.com</code>). The request is the same for every user and contains no personal data.</li>
+    <li><strong>City search.</strong> When you search for a city to add in Time, the text you type is sent to the Open-Meteo geocoding service (<code>geocoding-api.open-meteo.com</code>) to find matching places. Nothing else is sent. Open-Meteo says it keeps web server logs for troubleshooting, does not share them, and deletes them after 90 days.</li>
+  </ul>
+  <p>Both connections are encrypted with HTTPS. Like any internet request, these services can see your device's IP address. CoinClock itself does not use your IP address or your location.</p>
+  <p>You can read their own terms here: <a href="https://www.exchangerate-api.com/terms">ExchangeRate-API terms</a> and <a href="https://open-meteo.com/en/terms">Open-Meteo terms and privacy</a>.</p>
+
+  <h2>Backups and files</h2>
+  <ul>
+    <li><strong>Android backup.</strong> If backup is turned on in your phone's settings, Android may save a copy of your lists and settings to your own Google account. Google runs this backup under its own terms. The developer cannot see it. You can turn it off in your phone's backup settings.</li>
+    <li><strong>Copy lists to file.</strong> CoinClock writes a file only when you tap "Copy lists to file", and only to the place you choose. "Load lists from file" reads only the file you choose.</li>
+  </ul>
+
+  <h2>What CoinClock does not do</h2>
+  <ul>
+    <li>It does not ask for your location, contacts, photos, camera or microphone.</li>
+    <li>It does not use an advertising ID.</li>
+    <li>It does not contain ads, analytics, crash reporting or tracking tools.</li>
+    <li>It does not sell or share your data.</li>
+  </ul>
+  <p>The app asks Android for only two permissions: internet access, to download rates and search cities, and network state, to check if you are online.</p>
+
+  <h2>Keeping and deleting your data</h2>
+  <ul>
+    <li>Data on your phone stays until you remove it. You can swipe an item away in the app, clear the app's storage in Android settings, or uninstall the app.</li>
+    <li>The developer keeps no copy of your data, so there is nothing to delete on the developer's side.</li>
+    <li>You can delete Android backups in your Google account's backup settings.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>CoinClock is a general tool for adults. It is not made for children and does not knowingly collect data from anyone.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>For questions about this policy, please use the developer email shown on CoinClock's Google Play page.</p>
+
+  <footer>CoinClock by rayvader</footer>
+</main>
+</body>
+</html>
